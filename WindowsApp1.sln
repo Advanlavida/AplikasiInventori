@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AplikasiInventoris", "WindowsApp1\AplikasiInventoris.vbproj", "{BE969EFC-A124-46D3-B28E-DF4817B43495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE969EFC-A124-46D3-B28E-DF4817B43495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE969EFC-A124-46D3-B28E-DF4817B43495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE969EFC-A124-46D3-B28E-DF4817B43495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE969EFC-A124-46D3-B28E-DF4817B43495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1741900-F409-4905-A962-9371506C5F26}
+	EndGlobalSection
+EndGlobal
