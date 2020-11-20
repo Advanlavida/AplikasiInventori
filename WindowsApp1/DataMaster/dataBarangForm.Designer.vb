@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class dataBarangForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class dataBarangForm
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(dataBarangForm))
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -43,6 +43,7 @@ Partial Class dataBarangForm
         Me.tstbCari = New System.Windows.Forms.ToolStripTextBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.dgvBarang = New System.Windows.Forms.DataGridView()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -161,7 +162,7 @@ Partial Class dataBarangForm
         'ToolStrip1
         '
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripButton4, Me.tstbCari})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripButton5, Me.ToolStripButton2, Me.ToolStripButton3, Me.ToolStripButton4, Me.tstbCari})
         Me.ToolStrip1.Location = New System.Drawing.Point(3, 16)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(752, 39)
@@ -221,6 +222,14 @@ Partial Class dataBarangForm
         Me.dgvBarang.Size = New System.Drawing.Size(749, 219)
         Me.dgvBarang.TabIndex = 0
         '
+        'ToolStripButton5
+        '
+        Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(81, 36)
+        Me.ToolStripButton5.Text = "Update"
+        '
         'dataBarangForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -252,12 +261,6 @@ Partial Class dataBarangForm
     Friend WithEvents Label1 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ToolStripButton1 As ToolStripButton
-    Friend WithEvents ToolStripButton2 As ToolStripButton
-    Friend WithEvents ToolStripButton3 As ToolStripButton
-    Friend WithEvents ToolStripButton4 As ToolStripButton
-    Friend WithEvents tstbCari As ToolStripTextBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents dgvBarang As DataGridView
     Friend WithEvents txtKdBarang As TextBox
@@ -267,4 +270,11 @@ Partial Class dataBarangForm
     Friend WithEvents Label3 As Label
     Friend WithEvents txtNamaBarang As TextBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents ToolStripButton1 As ToolStripButton
+    Friend WithEvents ToolStripButton2 As ToolStripButton
+    Friend WithEvents ToolStripButton3 As ToolStripButton
+    Friend WithEvents ToolStripButton4 As ToolStripButton
+    Friend WithEvents tstbCari As ToolStripTextBox
+    Friend WithEvents ToolStripButton5 As ToolStripButton
 End Class
